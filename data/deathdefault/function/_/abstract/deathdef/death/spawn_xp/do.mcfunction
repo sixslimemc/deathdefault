@@ -27,4 +27,4 @@ function deathdefault:_/abstract/deathdef/death/spawn_xp/loop
 # restore:
 data modify storage deathdefault:_ x.macro.xp set from storage deathdefault:_ a.death.restore_xp
 function deathdefault:_/abstract/deathdef/death/spawn_xp/xp_add with storage deathdefault:_ x.macro.xp
-stopsound @a player minecraft:entity.player.levelup
+stopsound @a * minecraft:entity.player.levelup
