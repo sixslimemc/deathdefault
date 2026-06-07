@@ -5,6 +5,8 @@ struct VariableRegister {
 dispatch minecraft:storage[deathdefault:_] to struct {
     /// top level
     t: VariableRegister,
+    /// abstract
+    a: VariableRegister,
     /// impl
     v: VariableRegister,
     /// util
