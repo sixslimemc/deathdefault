@@ -5,4 +5,4 @@
 #--------------------
 
 $say $(xp)
-$xp add @s $(xp) points
+# $xp add @s $(xp) points
