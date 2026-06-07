@@ -4,6 +4,9 @@
 # ./do
 #--------------------
 
+# DEBUG:
+tellraw @a ["xp: ", {'score':{'name':'*death.drop_xp', 'objective':'_deathdefault'}}]
+
 # random motion:
 execute store result storage deathdefault:_ a.death.xp.x double .0001 run random value -5000..5000
 execute store result storage deathdefault:_ a.death.xp.y double .0001 run random value 500..1000
