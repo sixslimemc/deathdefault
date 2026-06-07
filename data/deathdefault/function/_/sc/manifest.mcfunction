@@ -8,7 +8,7 @@ data modify storage slimecore:in manifest.pack.author_id set value "sixslime"
 data modify storage slimecore:in manifest.pack.version set value {major:0, minor:1, patch:0}
 data modify storage slimecore:in manifest.pack.url set value "https://github.com/sixslimemc/deathdefault/releases/download/v0.1.0/sixslime.deathdefault.0.1.0.zip"
 
-data modify storage slimecore:in manifest.pack.display.name set value "DeathDef(ault)"
+data modify storage slimecore:in manifest.pack.display.name set value "DeathDefault"
 data modify storage slimecore:in manifest.pack.display.summary set value "Vanilla death implementation through DeathDef."
 data modify storage slimecore:in manifest.pack.display.author_name set value "SixSlime"
 
