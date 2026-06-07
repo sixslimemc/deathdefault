@@ -16,17 +16,17 @@ execute store result storage deathdefault:_ a.death.xp.z double .0001 run random
 execute if score *death.drop_xp _deathdefault matches 73.. run data modify storage deathdefault:_ a.death.xp.xp set value 73
 execute if score *death.drop_xp _deathdefault matches 73.. run return run function deathdefault:_/abstract/deathdef/death/spawn_xp/spawn with storage deathdefault:_ a.death.xp
 
-execute if score *death.drop_xp _deathdefault matches 37.. run data modify storage deathdefault:_ a.death.xp.xp set value 73
+execute if score *death.drop_xp _deathdefault matches 37.. run data modify storage deathdefault:_ a.death.xp.xp set value 37
 execute if score *death.drop_xp _deathdefault matches 37.. run return run function deathdefault:_/abstract/deathdef/death/spawn_xp/spawn with storage deathdefault:_ a.death.xp
 
-execute if score *death.drop_xp _deathdefault matches 17.. run data modify storage deathdefault:_ a.death.xp.xp set value 73
+execute if score *death.drop_xp _deathdefault matches 17.. run data modify storage deathdefault:_ a.death.xp.xp set value 17
 execute if score *death.drop_xp _deathdefault matches 17.. run return run function deathdefault:_/abstract/deathdef/death/spawn_xp/spawn with storage deathdefault:_ a.death.xp
 
-execute if score *death.drop_xp _deathdefault matches 7.. run data modify storage deathdefault:_ a.death.xp.xp set value 73
+execute if score *death.drop_xp _deathdefault matches 7.. run data modify storage deathdefault:_ a.death.xp.xp set value 7
 execute if score *death.drop_xp _deathdefault matches 7.. run return run function deathdefault:_/abstract/deathdef/death/spawn_xp/spawn with storage deathdefault:_ a.death.xp
 
-execute if score *death.drop_xp _deathdefault matches 3.. run data modify storage deathdefault:_ a.death.xp.xp set value 73
+execute if score *death.drop_xp _deathdefault matches 3.. run data modify storage deathdefault:_ a.death.xp.xp set value 3
 execute if score *death.drop_xp _deathdefault matches 3.. run return run function deathdefault:_/abstract/deathdef/death/spawn_xp/spawn with storage deathdefault:_ a.death.xp
 
-execute if score *death.drop_xp _deathdefault matches 1.. run data modify storage deathdefault:_ a.death.xp.xp set value 73
+execute if score *death.drop_xp _deathdefault matches 1.. run data modify storage deathdefault:_ a.death.xp.xp set value 1
 execute if score *death.drop_xp _deathdefault matches 1.. run return run function deathdefault:_/abstract/deathdef/death/spawn_xp/spawn with storage deathdefault:_ a.death.xp
