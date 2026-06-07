@@ -8,8 +8,6 @@
 function six:player/get_true_xp
 data modify storage deathdefault:_ a.death.restore_xp set from storage six:out get_true_xp.result
 
-# DEBUG:
-tellraw @a ["six: ", {'storage':'six:out', 'nbt':'get_true_xp.result'}]
 # set xp bar to 0:
 execute store result storage deathdefault:_ x.macro.xp int -1 run data get storage deathdefault:_ a.death.restore_xp
 function deathdefault:_/abstract/deathdef/death/spawn_xp/xp_add with storage deathdefault:_ x.macro.xp
