@@ -1,0 +1,4 @@
+
+dispatch minecraft:storage[deathdefault:hook] to struct Hook {
+
+}

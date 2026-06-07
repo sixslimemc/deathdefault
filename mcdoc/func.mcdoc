@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[deathdefault:in] to struct In {
+
+}
+
+dispatch minecraft:storage[deathdefault:out] to struct Out {
+
+}
