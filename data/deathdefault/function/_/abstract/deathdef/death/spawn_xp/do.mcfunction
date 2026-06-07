@@ -23,6 +23,10 @@ execute store result score *death.drop_xp _deathdefault run xp query @s levels
 scoreboard players operation *death.drop_xp _deathdefault *= *7 _deathdefault
 execute if score *death.drop_xp _deathdefault matches 101.. run scoreboard players set *death.drop_xp _deathdefault 100
 
+# set xp bar back to 0:
+execute store result storage deathdefault:_ x.macro.xp int -1 run data get storage deathdef:abstract/in death.xp
+function deathdefault:_/abstract/deathdef/death/spawn_xp/xp_add with storage deathdefault:_ x.macro
+
 # spawn orbs:
 function deathdefault:_/abstract/deathdef/death/spawn_xp/loop
 
