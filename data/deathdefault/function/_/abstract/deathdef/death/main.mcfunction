@@ -4,9 +4,6 @@
 # @ abstract : deathdef:death
 #--------------------
 
-# DEBUG:
-tellraw @a ["DEATH: ", {'storage':'deathdef:abstract/in', 'nbt':'death.xp'}]
-
 # do xp:
 function deathdefault:_/abstract/deathdef/death/spawn_xp/do
 
